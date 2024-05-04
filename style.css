@@ -737,7 +737,7 @@ html{
 /********** section 1 **************/
 
 .container .section-1 {
-    padding: 0vmin 0vmin;
+    padding: 10vmin 0vmin;
   }
   
   .section-1 .row .col-md-6 .pray img {
@@ -813,7 +813,7 @@ html{
     justify-content: space-around;
 
    
-    top: 7vmin;
+    top: 0vmin;
     left: -18vmin;
     background: white;
     border-radius: 30px;
