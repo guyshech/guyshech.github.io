@@ -1049,6 +1049,14 @@ html{
 
 /* Footer */
 
+footer{margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+      display: block;}
+
 	#footer {
 		color: #717981;
 		display: -moz-flex;
