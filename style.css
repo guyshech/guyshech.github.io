@@ -742,9 +742,9 @@ html{
   
   .section-1 .row .col-md-6 .pray img {
     opacity: 0.8;
-    width:90%;
-    height: 3500px;
-    border-radius: 0.3em;
+    width:80%;
+    height: 450px;
+    border-radius: 0.2em;
   }
   
   .section-1 .row .col-md-6:last-child {
