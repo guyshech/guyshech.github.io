@@ -1049,6 +1049,7 @@ html{
 
 /* Footer */
 
+
 footer{margin: 0;
 	padding: 0;
 	border: 0;
@@ -1058,20 +1059,37 @@ footer{margin: 0;
       display: block;}
 
 	#footer {
+		width: 100%;
+    		background-color:#fff;
+  		padding-bottom: 15rem;
 		color: #717981;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
 		color: #909498;
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
-	}
+		margin: 10px auto;
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: space-around;
+		
+		   
+		    top: 0vmin;
+		    left: -18vmin;
+		    background: white;
+		    border-radius: 30px;
+		    text-align: left;
+		    padding: 5vmin 5vmin 15vmin 10vmin;
+		    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+		    z-index: 1;
+				<!-- background-color: #f5f5f5; -->
+				<!-- width: calc(100% - 4rem); -->
+			}
 
 		#footer input, #footer select, #footer textarea {
 			color: #717981;
