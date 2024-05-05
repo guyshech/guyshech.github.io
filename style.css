@@ -383,7 +383,7 @@ html{
     width: 38vmin;
     height: 35.99vmin;
     padding: 4.8vmin 2em;
-    background: #272727;
+    background: #afbbc7;
     text-align: center;
     transition: all .3s;
 }
@@ -431,7 +431,7 @@ html{
 .vertical-panel{
     z-index: 3;
     height: 10000px;
-    background-color: #272727;
+    background-color: #afbbc7;
 }
 
 .vertical-panel-content{
