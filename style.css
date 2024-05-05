@@ -737,14 +737,14 @@ html{
 /********** section 1 **************/
 
 .container .section-1 {
-    padding: 10vmin -10vmin;
+    padding: 10vmin 0vmin 0vmin;
   }
   
   .section-1 .row .col-md-6 .pray img {
     opacity: 0.8;
     width:70%;
     height: 350px;
-    border-radius: 0.2em;
+    border-radius: 0.4em;
   }
   
   .section-1 .row .col-md-6:last-child {
