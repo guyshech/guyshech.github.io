@@ -1092,8 +1092,16 @@ footer{margin: 0;
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #717981;
-		}
+			font-family: "Poppins", serif;
+			    font-weight: 500;
+			    padding: 0.4em 0;
+			    font-size: 35px;
+			    display: block;
+			    align-items: center;
+			    position: relative;
+			    padding: 30px;
+			    text-align: center;
+					}
 
 		#footer blockquote {
 			border-left-color: #e2e2e2;
