@@ -737,7 +737,7 @@ html{
 /********** section 1 **************/
 
 .container .section-1 {
-    padding: 10vmin 0vmin;
+    padding: 10vmin -10vmin;
   }
   
   .section-1 .row .col-md-6 .pray img {
@@ -758,7 +758,7 @@ html{
     background: white;
     border-radius: 3px;
     text-align: left;
-    padding: 8vmin 5vmin 2vmin 10vmin;
+    padding: 8vmin 5vmin 12vmin 10vmin;
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 30px;
@@ -1059,8 +1059,6 @@ footer{margin: 0;
       display: block;}
 
 	#footer {
-		width: 100%;
-    		background-color:#fff;
   		padding-bottom: 15rem;
 		color: #717981;
 		display: -moz-flex;
@@ -1074,21 +1072,8 @@ footer{margin: 0;
 		max-width: 72rem;
 		z-index: 2;
 		margin: 10px auto;
-		    display: flex;
-		    flex-wrap: wrap;
-		    justify-content: space-around;
-		
-		   
-		    top: 0vmin;
-		    left: -18vmin;
-		    background: white;
-		    border-radius: 30px;
-		    text-align: left;
-		    padding: 5vmin 5vmin 15vmin 10vmin;
-		    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
-		    z-index: 1;
-				<!-- background-color: #f5f5f5; -->
-				<!-- width: calc(100% - 4rem); -->
+		background-color: #f5f5f5;
+		width: calc(100% - 4rem);
 			}
 
 		#footer input, #footer select, #footer textarea {
