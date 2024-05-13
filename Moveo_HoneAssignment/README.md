@@ -16,6 +16,7 @@ pip install requests
 pip install csv
 pip install streamlit
 pip install google
+pip install pandas 
 </pre> 
   
 
