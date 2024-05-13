@@ -2,6 +2,10 @@
 
 Grouping Patent Texts
 
+## Intro
+
+This project aims to analyze patent claims in the mobile communications sector, grouping them into topics using various methods, culminating in the development of an interactive web application that allows users to select the number of groups they want to view, displaying the titles of the groups along with the number of claims in each group as output.
+
 ## Installation
 
 I used python 3.9 version
