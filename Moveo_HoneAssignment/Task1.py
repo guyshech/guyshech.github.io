@@ -49,4 +49,3 @@ with open(file_name, mode='w', newline='') as file:
     for claim in total_lst:
         writer.writerow([claim])
 
-print(f"Claims have been saved to {file_name}")
