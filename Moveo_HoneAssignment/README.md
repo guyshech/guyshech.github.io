@@ -8,17 +8,16 @@ I use python 3.9 version
 
 To install the project, you need to use pip:
   <pre>
-```plaintext
 pip install sklearn // pip install scikit-learn
-```
+pip install scipy
+pip install collections
+pip install bs4
+pip install requests
+pip install csv
+pip install streamlit
+pip install google
 </pre> 
-  pip install scipy
-  pip install collections
-  pip install bs4
-  pip install requests
-  pip install csv
-  pip install streamlit
-  pip install google
+  
 
 ## Task 1
 
