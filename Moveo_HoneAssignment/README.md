@@ -35,7 +35,7 @@ I select LDA model.
 Make sure you have Streamlit installed. You can install it via pip:
 <pre> pip install streamlit </pre>
 Run the Streamlit app using the following command:
-<pre>streamlit run Task3-App.py</pre>
+<pre>streamlit run Task3_App.py</pre>
 
 Make sure to replace:
 <pre> 'genai.configure(api_key='YOUR_API_KEY') </pre>
