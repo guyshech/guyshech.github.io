@@ -3,7 +3,8 @@ from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyABQes1dnjm_o400UTfGFWgJhroeVhJP00')
+# Make sure to insert your API key to run the app
+genai.configure(api_key='YOUR_API_KEY')
 
 # Function to get one-word topic from Gemini AI
 def get_gemini_title_for_group(claims):
