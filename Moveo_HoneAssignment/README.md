@@ -22,7 +22,7 @@ pip install google
 ## Task 1
 
 You can change the URL of the patent if you want to take another claims from other patent.
-You can akso use : 'https://worldwide.espacenet.com/advancedSearch?locale=en_EP' to find patent related to mobile communication.  
+You can also use : 'https://worldwide.espacenet.com/advancedSearch?locale=en_EP' to find patent related to mobile communication.  
 
 ## Task 3
 
@@ -35,7 +35,6 @@ Make sure to replace:
 <pre> 'genai.configure(api_key='YOUR_API_KEY') </pre>
 with your api-key
 
-!['Running Streamlit App](url)
 ![Streamlit Logo](https://github.com/guyshech/guyshech.github.io/blob/main/Moveo_HoneAssignment/streamlit_app.JPG)
 
 
