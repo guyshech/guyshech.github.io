@@ -27,9 +27,10 @@ You can akso use : 'https://worldwide.espacenet.com/advancedSearch?locale=en_EP'
 ## Task 3
 
 Make sure you have Streamlit installed. You can install it via pip:
-pip install streamlit
+<pre> pip install streamlit </pre>
 Run the Streamlit app using the following command:
-streamlit run Task3-App.py
+<pre>streamlit run Task3-App.py</pre>
+
 
 
 
