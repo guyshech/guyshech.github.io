@@ -31,6 +31,10 @@ Make sure you have Streamlit installed. You can install it via pip:
 Run the Streamlit app using the following command:
 <pre>streamlit run Task3-App.py</pre>
 
+Make sure to replace:
+<pre> 'genai.configure(api_key='AIzaSyABQes1dnjm_o400UTfGFWgJhroeVhJP00' </pre>
+with your api-key
+
 
 
 
