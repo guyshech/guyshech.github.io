@@ -1,0 +1,4 @@
+Requirements:
+Python Version: 3.9
+OpenAI API - for use GEMENI
+Install all the library
