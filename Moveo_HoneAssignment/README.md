@@ -7,7 +7,7 @@ Grouping Patent Texts
 I use python 3.9 version
 
 To install the project, you need to use pip:
-  pip install sklearn // pip install scikit-learn
+  pip install sklearn // pip install scikit-learn /n
   pip install scipy
   pip install collections
   pip install bs4
