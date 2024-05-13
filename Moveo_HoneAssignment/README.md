@@ -32,7 +32,7 @@ Run the Streamlit app using the following command:
 <pre>streamlit run Task3-App.py</pre>
 
 Make sure to replace:
-<pre> 'genai.configure(api_key='AIzaSyABQes1dnjm_o400UTfGFWgJhroeVhJP00' </pre>
+<pre> 'genai.configure(api_key='YOUR_API_KEY') </pre>
 with your api-key
 
 
