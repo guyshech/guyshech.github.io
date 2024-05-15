@@ -1,0 +1,46 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+<div class="logout">
+		<a href="/logout">log out</a>
+		</div>
+		<br>
+		<div class="homepage"><a href="/homepage_dog_owner">return HomePage</a></div>
+<h2 class="h2_2">Select the walker you prefer</h2>
+  <table class="main_border">
+  <tr class="main_border">
+    <th class="main_border">Walker</th>
+    <th class="main_border">Price</th>
+    <th class="main_border">Phone</th>
+    <th class="main_border">Mail</th>
+    <th class="main_border"></th>
+  </tr>
+  <!-- Adds a new row for every Walker which is available at the requested Day & Time -->
+  <!-- This table shows the Walkers available at the requested Day & Time, with their contact details and a button for requesting the Walk -->
+  {% for walker1 in walker %}
+    <tr class="main_border">
+        <td class="main_border">
+          {{ walker1.Name }}
+        </td>
+        <td class="main_border">
+          {{ walker1.Price }}
+        </td>
+        <td class="main_border">
+          {{ walker1.Phone }}
+        </td>
+        <td class="main_border">
+          {{ walker1.Email }}
+        </td>
+        <td class="main_border">
+          <!-- Every row has a form with a button which is used to set a walk with it's Walker. -->
+          <a href="/Thank_You?walker_email={{walker1.Email}}">
+            Pick me!
+          </a>
+        </td>
+    </tr>
+  {% endfor %}
+</table>
+</body>
+</html>

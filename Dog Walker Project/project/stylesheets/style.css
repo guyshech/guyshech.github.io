@@ -1,0 +1,52 @@
+/* style1.css  */
+/* Define the style of our application  */
+
+/* Define The background image  */
+body {background-image:url("dog1.jpeg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+font-size:20px;
+}
+
+
+/* Define the size of the table cells <td>  */
+td {width: 60px; height: 60px; text-align: center;}
+
+/* Define the size of the table cells <th>  */
+th{width: 60px; height: 60px; text-align: center;}
+th.no_other{color:red;}
+
+
+
+/* Define the table's border */
+.border { border:1px solid black;}
+
+/* Settings table border and font*/
+table {border-collapse: collapse; cellpadding:4; font-weight: bold}
+.main_border { border:1px solid black;}
+
+
+/* define style for h1,h2,h3,h4*/
+h1,h2,h3,h4{color:black; text-align:center; font-family: 'Kaushan Script', serif;}
+.h1_1{text-decoration: underline;}
+.h1_2{text-align:left}
+.h2_2{text-align:left}
+
+/* define style for <p>*/
+.p1{
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;}
+
+/* define style for logout link*/
+div.logout{
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+}
+
+/* define style for homapage link*/
+div.homepage{position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;}

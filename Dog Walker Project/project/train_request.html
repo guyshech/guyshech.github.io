@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+<div class="logout">
+		<a href="/logout">log out</a>
+		</div>
+		<br>
+		<div class="homepage"><a href="/homepage_dog_owner">return HomePage</a></div>
+<h2 class="h2_2">Select the time and the dog you want to train</h2>
+<!-- The form allowing to set a new Train -->
+<form action="/train_request" method="post">
+  <!-- The Dog Owner selects via this form the request Day, Time & Dog he'd like to have trained, presses "Submit" and then he gets back the results. -->
+
+   
+      <select name="days" id="days">
+        {% for day in days %}
+          <option value="{{ day }}">{{ day }}</option>
+        {% endfor %}
+      </select>
+    
+      <select name="parts_of_day" id="parts_of_day">
+        {% for part in parts_of_day %}
+          <option value="{{ part }}">{{ part }}</option>
+        {% endfor %}
+      </select>
+
+    <!-- List of all the dog owner dogs -->
+      <select name="dogs" id="dogs" >
+        {% for dog in dogs %}
+          <option value="{{ dog.ID }}">{{ dog.Name }}</option>
+        {% endfor %}
+      </select>
+   
+      <input type="submit" value="submit">
+    
+</form>
+
+</body>
+</html>

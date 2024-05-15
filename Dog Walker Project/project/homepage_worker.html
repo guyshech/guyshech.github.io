@@ -1,0 +1,63 @@
+<html>
+    <head><link rel="stylesheet" type="text/css" href="stylesheets/style.css"></head>
+	<body>
+		<div class="logout">
+		<a href="/logout">log out</a>
+		</div>
+		<h1 class="h1_2">Incoming Requests:</h1>
+		<!-- This table shows the worker incoming Requests -->
+		<table class="main_border">
+	    	<tr class="border">
+				<td class="border">request id number</td>
+				<td class="border">dog owner email</td>
+				<td class="border">dog owner name</td>
+				<td class="border">dog name</td>
+				<td class="border">activity day</td>
+				<td class="border">activity time</td>
+				<td class="border">want to approve?</td>
+			</tr>
+			 {% for request in list_of_requests %}
+			   <tr class="border">
+				  <form action= "/homepage_worker" method = "get">
+				   <td class="border">{{request.request_id}}</td>
+				   <td class="border">{{request.dog_owner_email}}</td>
+				   <td class="border">{{request.dog_owner_name}}</td>
+				   <td class="border">{{request.dog_name}}</td>
+				   <td class="border">{{request.day}}</td>
+				   <td class="border">{{request.time}}</td>
+				   <td>
+					   <a href="/request_answer?request_answer_id={{request.request_id}}&answer_respond=True&av_day={{request.day}}&av_time={{request.time}}">Yes</option><br>
+					   <a href="/request_answer?request_answer_id={{request.request_id}}&answer_respond=False&av_day={{request.day}}&av_time={{request.time}}">No</option>
+				   </td>
+			    </tr></form>
+				{% endfor %}
+				<tr><th colspan="7" class="no_other">you have no other request</th></tr>
+			</table>
+			
+		<h1 class="h1_2">My activitys:</h1>
+		<!-- This table shows the activities that approved -->
+			<table class="main_border">
+		    	<tr class="border"><td class="border">activity id number</td>
+					<td class="border">dog owner email</td>
+					<td class="border">dog owner name</td>
+					<td class="border">dog name</td>
+					<td class="border">activity day</td>
+					<td class="border">activity time</td>
+				</tr>
+				 {% for activity in list_of_activitys %}
+				   <tr class="border">
+					   <td class="border">{{activity.activity_id}}</td>
+					   <td class="border">{{activity.activity_dog_owner_email}}</td>
+					   <td class="border">{{activity.activity_dog_owner_name}}</td>
+					   <td class="border">{{activity.activity_dog_name}}</td>
+					   <td class="border">{{activity.activity_day}}</td>
+					   <td class="border">{{activity.activity_time}}</td>
+					   </td>
+				    </tr>{% endfor %}
+					<tr><th colspan="6" class="no_other">you have no other activities</th></tr>
+			</table>
+				   
+				   
+				     
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+<div class="logout">
+		<a href="/logout">log out</a>
+		</div>
+		<br>
+		<div class="homepage"><a href="/homepage_dog_owner">return HomePage</a></div>
+<h2 class="h2_2">Select the trainer you prefer</h2>
+  <table class="main_border">
+  <tr class="main_border">
+    <th class="border">Trainer</th>
+    <th class="border">Price</th>
+    <th class="border">Phone</th>
+    <th class="border">Mail</th>
+    <th class="border"></th>
+  </tr>
+  <!-- Adds a new row for every Trainer which is available at the requested Day & Time -->
+  <!-- This table shows the Trainers available at the requested Day & Time, with their contact details and a button for requesting the Train -->
+  {% for trainer1 in trainer %}
+    <tr class="main_border">
+        <td class="border">
+          {{ trainer1.Name }}
+        </td>
+        <td class="border">
+          {{ trainer1.Price }}
+        </td>
+        <td class="border">
+          {{ trainer1.Phone }}
+        </td>
+        <td class="border">
+          {{ trainer1.Email }}
+        </td>
+        <td class="border">
+          <!-- Every row has a form with a button which is used to set a train with it's Trainer. -->
+          <a href="/Thank_You2?trainer_email={{trainer1.Email}}">
+            Pick me!
+          </a>
+        </td>
+    </tr>
+  {% endfor %}
+</table>
+</body>
+</html>
