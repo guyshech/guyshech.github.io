@@ -1457,3 +1457,34 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 12px;
+  padding: 0;
+  margin: 20px auto 0;
+  list-style: none;
+}
+
+.skills-tags li {
+  padding: 6px 14px;
+  border: 1px solid #e7e7e7;
+  border-radius: 9999px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+}
+.btn-primary {
+  background: #007bff;
+  border: none;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #0056b3;
+}
